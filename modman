@@ -1,0 +1,6 @@
+app/code/community/MobWeb/MultipleCategoryImages app/code/community/MobWeb/MultipleCategoryImages/
+
+app/etc/modules/MobWeb_MultipleCategoryImages.xml app/etc/modules/MobWeb_MultipleCategoryImages.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

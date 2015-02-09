@@ -1,0 +1,27 @@
+<config>
+	<modules>
+		<MobWeb_MultipleCategoryImages>
+			<version>0.1.0</version>
+		</MobWeb_MultipleCategoryImages>
+	</modules>
+	<global>
+		<models>
+			<multiplecategoryimages>
+				<class>MobWeb_MultipleCategoryImages_Model</class>
+			</multiplecategoryimages>
+		</models>
+		<helpers>
+			<multiplecategoryimages>
+				<class>MobWeb_MultipleCategoryImages_Helper</class>
+			</multiplecategoryimages>
+		</helpers>
+		<resources>
+			<multiplecategoryimages_setup>
+				<setup>
+					<module>MobWeb_MultipleCategoryImages</module>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
+				</setup>
+			</multiplecategoryimages_setup>
+		</resources>
+	</global>
+</config>
